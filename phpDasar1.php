@@ -96,13 +96,17 @@ function generate($kalimat){
 }
 
 
-// $nilai = [8,8,9,10];
-// echo average($nilai);
-// echo minimum($nilai);
-// echo maksimum($nilai);
+$nilai = [8,8,9,10];
+echo average($nilai);
+echo "<br>";
+echo minimum($nilai);
+echo "<br>";
+echo maksimum($nilai);
+echo "<br>";
 
-// $string = "muHAmmAD NaSHIr";
-// echo hurufkecil($string);
+$string = "muHAmmAD NaSHIr";
+echo hurufkecil($string);
+echo "<br>";
 
 
 $kalimat = "Jakarta adalah ibukota negara Republik Indonesia";

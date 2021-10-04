@@ -43,24 +43,26 @@
 		
   } 
 
-//   $no = 1;
-//   $v = 1;
-//   echo "<table>";
-//   for($i = 0; $i < 8; $i++){
-//    echo '<tr>';
-//     for($x = 0; $x < 8; $x++){
-//       echo '<td '.pola($v).'>';
-//       echo $no++;
-//       echo '</td>';
-//       if ($v==12) {
-//         $v = 1;
-//       } else {
-//         $v++;
-//       }
-//     }
-//    echo '</tr>';
-//   }
-//   echo "</table>";
+  $no = 1;
+  $v = 1;
+  echo "<table>";
+  for($i = 0; $i < 8; $i++){
+   echo '<tr>';
+    for($x = 0; $x < 8; $x++){
+      echo '<td '.pola($v).'>';
+      echo $no++;
+      echo '</td>';
+      if ($v==12) {
+        $v = 1;
+      } else {
+        $v++;
+      }
+    }
+   echo '</tr>';
+  }
+  echo "</table>";
+
+  echo "<br>";
 
 $plaintext = "DFHKNQ";
 echo enkripsi($plaintext);
